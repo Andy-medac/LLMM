@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Currículum Vitae</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
@@ -16,12 +16,13 @@
             <div>
                 <img src="img/foto.jpg" class="foto">
                 <h3>Menú</h3>
-                
+
                 <ul>
                     <li><a href="#datos">Datos Personales</a></li>
+                    <li><a href="#sobre">Sobre mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                     <li><a href="#edu">Educación</a></li>
                     <li><a href="#hab">Habilidades</a></li>
-                    <li><a href="#sobre">Sobre mí</a></li>
                     <li><a href="#info">Información relevante</a></li>
                 </ul>
             </div>
@@ -31,14 +32,9 @@
                 <p><i>Nombre:</i> Andy</p>
                 <p><i>Apellidos:</i> Orpez Arias</p>
                 <p><i>Correo de Medac:</i> aoa0008@alu.medac.es</p>
-            </div>
-
-            <div>
-                <h3>Sobre mí</h3>
-                <p>Apasionada del diseño y la tecnología desde niña. Me encanta
-                    diseñar composiciones atrevidas, me defino <br>por ser una persona
-                    con ganas de aprender. Soy muy sociable por lo
-                    que disfruto mucho a la hora de trabajar en equipo.</p>
+                <a href="sobreMi.html" target="_self" id="sobre"><button class="boton1">Sobre mí</button></a>
+                <a href="contacto.html" target="_self" id="contacto"><button class="boton">Contacto</button></a>
+                
             </div>
 
             <div id="edu">
@@ -70,11 +66,16 @@
             </div>
 
             <h3 id="info">Información relevante</h3>
-            <a href="https://instituto.medac.es">
+            <h4>Aula virtual y ubicación de Medac Aventura</h4>
+            <a href="https://instituto.medac.es" target="_blank">
                 <img src="img/medac.png" alt="Medac" title="Instituto Virtual de Medac">
                 <br>
-            </a>
-            <a href="contacto.html"><button class="boton">Contacto</button></a>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50442.49491610158!2d-3.857829078320299!3d37.798102400000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6dd7dec3dd20ad%3A0x4fad82fdbe189c8!2sMEDAC%20Aventura%20Formaci%C3%B3n%20Profesional!5e0!3m2!1ses!2ses!4v1729521876703!5m2!1ses!2ses"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe> </a>
+            <br>
         </div>
     </div>
 </body>
