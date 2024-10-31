@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<div class="divfondo">
+    <div class="divtexto">
+    <form action="http://localhost/proceso.php" method="post"> 
+        <!--Datos personales-->
+        <fieldset>
+            <legend><b>Datos Personales</b></legend>
+            <p>Nombre: <input type="text" placeholder="Introduce un nombre" name="nombre" maxlength="20" size="20" required tabindex="1">
+               Apellidos: <input type="text" name="apellidos" maxlength="40" placeholder="Introduce unos apellidos" size="30" required tabindex="2"></p>
+            <p>Edad: <input type="number" name="edad" value="0" tabindex="3"></p>
+            <p>Género:</p>
+            <input type="radio" name="genero" value="Hombre" tabindex="4"> Hombre
+            <input type="radio" name="genero" value="Mujer"> Mujer
+        </fieldset>
+        <fieldset>
+            <!--Contacto-->
+            <legend><b>Contacto</b></legend>
+            <p>Correo electrónico: <input type="text" name="correo" required placeholder="Introduce un correo" tabindex="5"></p>
+            <p>Código postal: <input type="text" name="codigo postal" maxlength="5" placeholder="Introduce un código postal" tabindex="6"></p>
+            <p>Dirección: <input type="text" name="direccion" size="22" placeholder="Calle, puerta, escalera, piso" tabindex="7"></p>
+
+            <p>Ciudad: <select name="ciudad" size="1" tabindex="8"></p>
+            <option value="jaen">Jaén</option>
+            <option value="sevilla">Sevilla</option>
+            <option value="granada">Granada</option>
+            <option value="almeria">Almería</option>
+            <option value="huelva">Huelva</option>
+            <option value="cadiz">Cádiz</option>
+            <option value="malaga">Málaga</option>
+            </select>
+            <p>Contraseña: <input type="password" name="contraseña" required minlength="8" tabindex="9"></p>
+        </fieldset>
+        <fieldset>
+            <!--Datos de interés-->
+            <legend><b>Datos de interés</b></legend>
+            <p>Estado civil:</p>
+            <input type="radio" name="estado civil" value="C" tabindex="10"> Casad@
+            <input type="radio" name="estado civil" value="No c"> No casad@
+            <p>Hobbies:</p>
+            <input type="checkbox" name="hobbie" value="deporte" tabindex="11"> Deporte <br>
+            <input type="checkbox" name="hobbie" value="cine" tabindex="11"> Cine <br>
+            <input type="checkbox" name="hobbie" value="lectura" tabindex="11"> Lectura <br>
+            <input type="checkbox" name="hobbie" value="correr" tabindex="11"> Correr 
+        </fieldset>
+        <fieldset>
+            <!--Comentarios-->
+            <legend><b>Comentarios adicionales</b></legend>
+            <p>Escribe tus comentarios aquí:</p>
+            <textarea name="Comentario" placeholder="Introduce tu comentario" rows="4" cols="27"></textarea>
+        </fieldset>
+        <p><input type="submit" value="Enviar">
+        <input type="reset" value="Resetear"></p>
+    </form>
+    <a href="index.html"><button class="boton">Página principal</button></a>
+    </div>
+</div>
+</body>
+
+</html>
