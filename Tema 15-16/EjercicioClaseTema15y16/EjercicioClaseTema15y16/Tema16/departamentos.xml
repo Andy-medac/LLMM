@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<departamentos>
+    <departamento id="1">
+        <nombre>Informática</nombre>
+        <personas>4</personas>
+        <presupuesto>15000</presupuesto>
+    </departamento>
+    <departamento id="2">
+        <nombre>Marketing</nombre>
+        <personas>3</personas>
+        <presupuesto>25000</presupuesto>
+    </departamento>
+</departamentos>

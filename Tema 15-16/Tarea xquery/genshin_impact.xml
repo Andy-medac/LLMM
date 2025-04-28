@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <personajes>
+	<personaje>
+ 		<id>1</id>
+ 		<nombre>Amber</nombre>
+ 		<elemento>Pyro</elemento>
+ 		<arma>Arco de Ámbar</arma>
+		<set_de_artefactos>Gladiador</set_de_artefactos>
+	</personaje>
+	<personaje>
+ 		<id>3</id>
+ 		<nombre>Diluc</nombre>
+ 		<elemento>Pyro</elemento>
+ 		<arma>Espada de Fuego</arma>
+		<set_de_artefactos>Gladiador</set_de_artefactos>
+	</personaje>
+	<personaje>
+ 		<id>2</id>
+ 		<nombre>Lumine</nombre>
+ 		<elemento>Anemo</elemento>
+ 		<arma>Espada de Luz</arma>
+		<set_de_artefactos>Maestro del Viento</set_de_artefactos>
+	</personaje>
+	<personaje>
+ 		<id>4</id>
+ 		<nombre>Zhongli</nombre>
+ 		<elemento>Geo</elemento>
+ 		<arma>Lanza del Guerrero</arma>
+		<set_de_artefactos>Maestro del Viento</set_de_artefactos>
+	</personaje>
+	</personajes>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Funciones y propiedades predefinidas</p>
+    <script>
+        var cad = "Lenguaje de marcas"
+        var array;
+
+        //funciones de texto
+        document.write(cad);
+        document.write("Longitud: " + (cad.length)); //longitud
+        document.write("<br>" + cad.toUpperCase()); //mayúsculas
+        document.write("<br>Letra en la posición 4: " + cad.charAt(4));
+        document.write("<br>Posición de la j: " + cad.indexOf("j"));
+        document.write("<br>Qué se hay entre las posiciones 0 y 8?: " + cad.substring(0, 8));
+
+        array = cad.split(" "); //guarda la cadena separada por espacios en el array
+        document.write("<br>" + array);
+        document.write("<br>" + array.join(" espacio "));
+        array.pop();
+        document.write("<br>" + array);
+        array.push("nuevo");
+        document.write("<br>" + array);
+        // funciones de array
+        document.write(array.join(" ")); // Lenguaje de Marcas
+        document.write(array.pop()); // Marcas
+        document.write(array.push("Marcas")); // 3
+        document.write(array.shift()); // Lenguaje
+        document.write(array.unshift("Lenguaje")); // 3
+        document.write(array.reverse());
+    </script>
+</body>
+
+</html>

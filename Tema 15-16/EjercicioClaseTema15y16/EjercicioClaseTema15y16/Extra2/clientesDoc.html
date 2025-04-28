@@ -1,0 +1,159 @@
+<html>
+  <head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7fc;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #34495e;
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        tr:hover {
+            background-color: #e3f2fd;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Clientes</h2>
+      <table>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellidos</th>
+          <th>Email</th>
+          <th>Edad</th>
+          <th>Total Gastado</th>
+          <th>Antigüedad</th>
+          <th>Estado</th>
+        </tr>
+        <tr>
+          <td>Juan</td>
+          <td>Pérez</td>
+          <td>juan.perez@example.com</td>
+          <td>30</td>
+          <td>150.75</td>
+          <td>5</td>
+          <td>Habitual</td>
+        </tr>
+        <tr>
+          <td>María</td>
+          <td>López</td>
+          <td>maria.lopez@example.com</td>
+          <td>25</td>
+          <td>200.50</td>
+          <td>3</td>
+          <td>Nuevo</td>
+        </tr>
+        <tr>
+          <td>Carlos</td>
+          <td>Gómez</td>
+          <td>carlos.gomez@example.com</td>
+          <td>40</td>
+          <td>350.20</td>
+          <td>8</td>
+          <td>Habitual</td>
+        </tr>
+      </table>
+      <h2>Clientes Ordenados por Antigüedad</h2>
+      <table>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellidos</th>
+          <th>Email</th>
+          <th>Edad</th>
+          <th>Total Gastado</th>
+          <th>Antigüedad</th>
+        </tr>
+        <tr>
+          <td>Carlos</td>
+          <td>Gómez</td>
+          <td>carlos.gomez@example.com</td>
+          <td>40</td>
+          <td>350.20</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>Juan</td>
+          <td>Pérez</td>
+          <td>juan.perez@example.com</td>
+          <td>30</td>
+          <td>150.75</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>María</td>
+          <td>López</td>
+          <td>maria.lopez@example.com</td>
+          <td>25</td>
+          <td>200.50</td>
+          <td>3</td>
+        </tr>
+      </table>
+      <h2>Cliente con Mayor Gasto</h2>
+      <table>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellidos</th>
+          <th>Email</th>
+          <th>Edad</th>
+          <th>Total Gastado</th>
+          <th>Antigüedad</th>
+        </tr>
+        <tr>
+          <td>Carlos</td>
+          <td>Gómez</td>
+          <td>carlos.gomez@example.com</td>
+          <td>40</td>
+          <td>350.20</td>
+          <td>8</td>
+        </tr>
+      </table>
+      <br/>
+      <h3>El total gastado es 701.45 € por los clientes</h3>
+      <br/>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trabajadores> 
+    <trabajador>
+        <nombre>Pedro Martínez</nombre>
+        <cargo>Analista</cargo>
+        <departamento>1</departamento>
+    </trabajador>
+    <trabajador>
+        <nombre>Alberto Ruiz</nombre>
+        <cargo>Tecnico Marketing</cargo>
+        <departamento>2</departamento>
+    </trabajador>
+</trabajadores>

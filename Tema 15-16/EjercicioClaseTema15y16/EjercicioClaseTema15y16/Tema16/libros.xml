@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+    <libro>
+        <titulo>Introducción a XQUERY</titulo>
+        <descripcion>Una guía de iniciación 
+            a XQuery con el uso de FLWOR
+        </descripcion>
+        <tipo>Tapa blanda</tipo>
+        <precio>19.95</precio>
+    </libro>
+    <libro>
+        <titulo>Transformaciones con XQUERY</titulo>
+        <descripcion>Uso avanzado de las 
+            consultas FLWOR
+        </descripcion>
+        <tipo>Tapa dura</tipo>
+        <precio>59.95</precio>
+    </libro>
+    <libro>
+        <titulo>Introducción a JavaScript</titulo>
+        <descripcion>Una iniciación al lenguaje 
+            cliente más utilizado
+        </descripcion>
+        <tipo>Tapa dura</tipo>
+        <precio>51</precio>
+    </libro>
+    <!-- ...más libros aquí.... -->
+</libros>
+
