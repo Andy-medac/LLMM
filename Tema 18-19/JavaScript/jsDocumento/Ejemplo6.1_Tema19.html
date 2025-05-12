@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="titulo"> Desarrollo de <br> Aplicaciones Multiplataforma/Web</h1>
+    <h2 id="modulo">Módulo : Lenguaje de Marcas</h2>
+    <h2>Duración: <span id="duracion">129</span> horas</h2>
+    <input type="button" value="cambiarHoras" onclick="cambiarHoras()">
+
+    <script>
+        function cambiarHoras() {
+            var titulo = document.getElementById('titulo');
+            var boton = document.getElementsByTagName('input')[0];
+            var cuerpo = document.getElementsByTagName('body')[0];
+            var url = 'https://i.pinimg.com/736x/9b/2c/53/9b2c53ee265802bd151f84b1e94b30ea.jpg';
+
+            titulo.style.border = 'solid 3px purple';
+            titulo.style.textAlign = 'center';
+            titulo.style.boxShadow = '6px 6px 10px black';
+
+            boton.value = 'Cambiado';
+
+            document.getElementById('duracion').innerHTML = '<b> 128 </b>';
+
+            cuerpo.style.backgroundImage = 'url';
+            
+        }
+    </script>
+</body>
+
+</html>

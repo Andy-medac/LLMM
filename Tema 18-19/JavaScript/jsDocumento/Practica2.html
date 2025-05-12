@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input id="newLine" type="text" name="newLine">
+    <button onclick="añadirElemento()"> Crear</button>
+    <ul>
+
+    </ul>
+
+    <script>
+        function añadirElemento() {                
+            
+            var input = document.getElementById('newLine').value;
+            if (input) {
+                var nuevoLi = document.createElement('li');
+                var lista = document.getElementsByTagName('ul')[0];
+
+                lista.appendChild(nuevoLi);
+                nuevoLi.innerHTML = input;
+                document.getElementById('newLine').value = '';
+                document.getElementById('newLine').style.backgroundColor = 'white';
+            } else {
+                document.getElementById('newLine').style.backgroundColor = 'red';
+            }
+        }
+    </script>
+</body>
+
+</html>

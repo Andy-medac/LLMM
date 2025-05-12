@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="parrafo">Pulse el botón para cambiar el contenido.</p>
+    <button onclick="cambia()">Cambiar</button>
+
+    <script>
+        function cambia(){
+            var elemento = document.getElementById('parrafo');
+            elemento.style.color = 'Red'; //cambia el color del texto
+            console.log(elemento);
+            elemento.innerHTML = 'No quiero trabajar'; //cambia el contenido
+        }
+    </script>
+</body>
+</html>

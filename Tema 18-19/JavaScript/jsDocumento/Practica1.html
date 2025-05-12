@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="parrafo">Este texto cambiará de color</p>
+    <input type="button" value="color azul" onclick="colorAzul('Blue')">
+    <input type="button" value="color Usuario" id="color" onclick="colorUsuario()">
+
+    <script>
+
+        function colorAzul(azul) {
+            document.getElementById('parrafo');
+            parrafo.style.color = azul;
+        }
+
+        function colorUsuario() {
+
+            var color2 = prompt('Inserta un color: ');
+            document.getElementById('parrafo');
+            parrafo.style.color = color2;
+        }
+
+
+    </script>
+</body>
+
+</html>

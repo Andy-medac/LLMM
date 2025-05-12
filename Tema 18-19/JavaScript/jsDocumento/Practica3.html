@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #cabecera {
+            border: 2px solid plum;
+            text-align: center;
+            width: 50%;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="cabecera">
+        <p>Prueba de inserción de imagen dentro del div</p>
+    </div>
+
+    <script>
+        var url = 'https://i.pinimg.com/736x/9b/2c/53/9b2c53ee265802bd151f84b1e94b30ea.jpg';
+        var imagen = document.createElement('img');
+        imagen.src = url;
+        var div1 = document.getElementsByTagName('div')[0];
+
+        div1.appendChild(imagen);
+    </script>
+</body>
+
+</html>
