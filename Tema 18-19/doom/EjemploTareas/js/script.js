@@ -1,5 +1,5 @@
 var boton = document.getElementById('btn');
-boton.addEventListener('click', function () {//genero un evento desde el script
+boton.addEventListener('click', function () {//genero un evento desde el script cuando se haga click en el boton
 
     var input = document.getElementById('entrada').value; //obtengo el valor que se introduce en el input
     if (input) { //si se introduce algo
